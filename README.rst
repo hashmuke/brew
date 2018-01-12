@@ -60,7 +60,7 @@ Example
         from brew.combination.combiner import Combiner
 
         from mlxtend.data import iris_data
-        from mlxtend.evaluate import plot_decision_regions
+        from mlxtend.plotting import plot_decision_regions
 
         # Initializing Classifiers
         clf1 = LogisticRegression(random_state=0)
